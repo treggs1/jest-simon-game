@@ -13,7 +13,7 @@ function newGame() {
 }
 
 function showScore() {
-    document.getElementById("score").innertext = game.score;
+    document.getElementById("score").innerText = game.score;
 }
 
 module.exports = { game, newGame, showScore };
