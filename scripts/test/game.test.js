@@ -45,7 +45,6 @@ describe("newGame works correctly", () => {
         game.currentGame = [4, 5, 6];
         document.getElementById("score").innerText = "42";
         newGame();
-        showScore();
     });
     test("should set game score to zero", () => {
         expect(game.score).toEqual(0);
